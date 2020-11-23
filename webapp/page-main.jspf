@@ -1,0 +1,99 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<%
+    
+    String id= "0";
+    id = request.getParameter("id"); // get page no
+
+%>
+
+
+<!-- Content Area-->
+<div class="container">
+    <!-- Image Slider-->
+    <img src="<%=baseUrl%>asset/img1.jpg" class="img-fluid" alt="Responsive image">
+
+    <%if (id.contentEquals("0")) { out.println("page number missing");
+        }%>
+    <!-- Image Slider-->
+
+    <!-- Main Headline-->
+    <%if (id.contentEquals("1")) {%>
+    <br>
+    <center>
+        <h2 class="">CVASU APA Commitee</h2>
+    </center>
+    <!-- Main Headline-->
+
+    <!-- Main card Modules row 1-->
+
+    <h5>
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Serial No.</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Download</th>
+                    <th scope="col">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>test1</td>
+                    <td> <a href="media/1.pdf">Click</a></td>        
+                    <td>21.11.2020</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </h5>
+    <%}%>
+
+    <%if (id.contentEquals("2")) {%>
+    <br>
+    <center>
+        <h2 class="">CVASU APA 2020-21</h2>
+    </center>
+    <h5>
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Serial No.</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Download</th>
+                    <th scope="col">Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <%}%>
+
+        <!-- Main card Modules row 1-->
+
+</div>
+<!-- Content Area-->
+
+

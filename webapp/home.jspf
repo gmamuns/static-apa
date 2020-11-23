@@ -1,0 +1,185 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+
+
+<!-- Content Area-->
+<div class="container">
+    <!-- Image Slider-->
+    <img src="<%=baseUrl%>asset/img1.jpg" class="img-fluid" alt="Responsive image">
+    <!-- Image Slider-->
+
+    <!-- Main Headline-->
+    <br>
+    <center>
+        <h2 class="">Welcome to CVASU APA Portal</h2>
+    </center>
+    <!-- Main Headline-->
+
+    <!-- Main card Modules row 1-->
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Annual Performance Agreement</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="1">Contracts and quarterly reports</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="2">Team Leader and Focal Point</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="https://apams.cabinet.gov.bd/"> APAMS web link</a></li>                                                                    
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="4">Office order/Notice</a></li>
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">National Integrity Strategy</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="5"> National Integrity Workplan</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="6"> Focal Point and Alternate Officer</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="7">Monitoring / evaluation report</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="8">Office order/Notice</a></li>
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Citizens Charter</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="9">Citizens Charter</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="10">Focal Point / Monitoring Committee</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="11">Monitoring / evaluation report</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="12">Office order/Notice</a></li>
+
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main card Modules row 1-->
+
+    <br>
+
+    <!-- Main card Modules row 2-->
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Grievance Redress System</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="13">GRS and Appellate Officer</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="14">Report</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="15"> Submit your complain</a></li>                                                                    
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="16">Office order/Notice</a></li>
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Right of Information</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="17"> Officer in charge and appellate authority</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="18"> Application and appeal form</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="19">Self-motivated information</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="20">Office order/Notice</a></li>
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Budget</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="21">Budget</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="22">Budget Implementation</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="23">Annual Procurement Plan (APP)</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="24">Office order/Notice</a></li>
+
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main card Modules row 2-->
+
+    <br>
+
+    <!-- Main card Modules row 3-->
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Innovation Corner</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="25">Innovation Team</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="26">Innovation Action Plan</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="27">Innovative Service List</a></li>                                                                    
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="28"> Process Simplification</a></li>
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Miscellaneous</h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="29"> Contact Us</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i><a href="30"> Miscellaneous Order</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="31"> List of Integrity Award recipients</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="32"> Video Conference</a></li>
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9th card is vacant -->
+        <!--
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="20"></a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="21">Budget Implementation</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="22">Annual Procurement Plan (APP)</a></li>
+                            <li class="list-group-item"><i class="fa fa-caret-right" aria-hidden="true"></i></i> <a href="23">Office order/Notice</a></li>
+
+                        </ul>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        -->
+        <!-- 9th card is vacant -->
+
+    </div>
+    <!-- Main card Modules row 3-->
+
+</div>
+<!-- Content Area-->

@@ -1,0 +1,141 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+ 
+<!-- Nav Bar Area-->
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="http://apa.cvasu.ac.bd">
+                        <img src="<%=baseUrl%>asset/cvasu.png" width="40" height="40" alt="CVASU">
+                    </a>
+                    <h5>
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="http://apa.cvasu.ac.bd">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            
+                            <!-- apa -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    APA
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/1">Contracts and quarterly reports</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/2">Team Leader and Focal Point</a>    
+                                    <a class="dropdown-item" href="https://apams.cabinet.gov.bd/">APAMS Weblink</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/4">Office order/Notice</a>                                   
+                                                                       
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- apa -->                            
+                            <!-- NIS -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    NIS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/5">National Integrity Workplan</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/6"> Focal Point and Alternate Officer</a>                                    
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/7">Monitoring / evaluation report</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/8">Office order/Notice</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- NIS -->
+                            <!-- Citizens Charter -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Citizens Charter
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/9">Citizens Charter</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/10">Focal Point/Monitoring Committee</a>                                    
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/11">Monitoring /evaluation report</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/12">Office order/Notice</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- Citizens Charter -->
+                             <!-- GRS -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    GRS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/13"> GRS and Appellate Officer</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/14">Report</a>                                    
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/15"> Submit your complain</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/16">Office order/Notice</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- GRS -->
+                            <!-- Right of Information -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Right of Info.
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/17">Officer in charge and appellate authority</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/18">Application and appeal form</a>                                    
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/19">Self-motivated information</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/20">Office order/Notice</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- Right of Information -->
+                            <!-- Budget -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Budget
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/21">Budget</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/22">Budget Implementation</a>                                    
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/23">Annual Procurement Plan (APP)</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/24">Office order/Notice</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- Budget -->
+                             <!-- Innovation Corner -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Innovation
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/25">Innovation Team</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/26">Innovation Action Plan</a>                                    
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/27">Innovative Service List</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/28"> Process Simplification</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- Innovation Corner -->
+                            <!-- Miscellaneous -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Miscellaneous
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/29">Contact Us</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/30">Miscellaneous Order</a>                                    
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/31">List of Integrity Award recipients</a>
+                                    <a class="dropdown-item" href="http://apa.cvasu.ac.bd/32">Video Conference</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <!-- Miscellaneous -->
+                        </ul>
+                    </h5>
+                </div>
+            </nav>
+
+        </div>
+        <!-- Nav Bar Area-->
+
